@@ -1,0 +1,132 @@
+/* MODIFY */
+.close {
+	display: flex;
+	align-self: flex-start;
+}
+
+.modal-body h1,p {
+	display: flex;
+	justify-content: center;
+}
+
+.modal-style .modal-header .modal-title {
+	font-size: 4rem;
+	margin: 0 auto;
+}
+
+/* STYLE */
+
+.modal-style.modal-success .modal-header {
+	background-color: #46B671;
+}
+
+
+.modal-style.modal-success .modal-body h1 {
+	color: #46B671;
+}
+
+.modal-body p {
+	color: #969696;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+.modal-style .modal-header .modal-title,
+.modal-style .modal-header .close{
+	color:  #fff;
+}
+
+.modal-style .modal-footer {
+	display: flex;
+	justify-content: center;
+}
+
+.modal-style.modal-success .btn-primary,
+.modal-style.modal-success .btn-secondary {
+	background-color: transparent;
+	color: #46B671;
+	border-color: #46B671;
+	text-transform: uppercase;
+}
+
+/* =================== FINAL SUCCESS =================== */
+
+/* =================== COMEÇO WARNING =================== */
+
+.modal-style.modal-warning .modal-header {
+	background-color: #EC971F;
+}
+
+.modal-style.modal-warning .modal-body h1 {
+	color: #EC971F;
+}
+
+.modal-style.modal-warning .btn-primary,
+.modal-style.modal-warning .btn-secondary {
+	background-color: transparent;
+	color: #EC971F;
+	border-color: #EC971F;
+	text-transform: uppercase;
+}
+
+/* =================== FINAL WARNING =================== */
+
+/* =================== COMEÇO DANGER =================== */
+
+.modal-style.modal-danger .modal-header {
+	background-color: #C9302C;
+}
+
+.modal-style.modal-danger .modal-body h1 {
+	color: #C9302C;
+}
+
+.modal-style.modal-danger .btn-primary,
+.modal-style.modal-danger .btn-secondary {
+	background-color: transparent;
+	color: #C9302C;
+	border-color: #C9302C;
+	text-transform: uppercase;
+}
+
+/* =================== FINAL DANGER =================== */
+
+/* =================== COMEÇO PRIMARY =================== */
+
+.modal-style.modal-primary .modal-header {
+	background-color: #0275D8;
+}
+
+.modal-style.modal-primary .modal-body h1 {
+	color: #0275D8;
+}
+
+.modal-style.modal-primary .btn-primary,
+.modal-style.modal-primary .btn-secondary {
+	background-color: transparent;
+	color: #0275D8;
+	border-color: #0275D8;
+	text-transform: uppercase;
+}
+
+/* =================== FINAL PRIMARY =================== */
+
+/* =================== COMEÇO INFO =================== */
+
+.modal-style.modal-info .modal-header {
+	background-color: #5BC0DE;
+}
+
+.modal-style.modal-info .modal-body h1 {
+	color: #5BC0DE;
+}
+
+.modal-style.modal-info .btn-primary,
+.modal-style.modal-info .btn-secondary {
+	background-color: transparent;
+	color: #5BC0DE;
+	border-color: #5BC0DE;
+	text-transform: uppercase;
+}
+
+/* =================== FINAL INFO =================== */

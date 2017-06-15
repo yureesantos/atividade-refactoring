@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Modal</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://use.fontawesome.com/be45844ce1.js"></script>	
+</head>
+<body>
+	<!-- Button trigger modal -->
+	<button type="button" class="btn btn-success" data-toggle="modal" data-target="#success">
+		Success
+	</button>
+	<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#warning">
+		Warning
+	</button>
+	<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#danger">
+		Danger
+	</button>
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#primary">
+		Primary
+	</button>
+	<button type="button" class="btn btn-info" data-toggle="modal" data-target="#info">
+		Info
+	</button>
+
+	<!-- Modal -->
+	<div class="modal modal-style modal-success fade" id="success" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel"><i class="fa fa-check-circle" aria-hidden="true"></i></h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+				</div>
+				<div class="modal-body">
+		      		<h1>Great!</h1>
+		      		<p>Your data has been succesfully saved.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Back to my work</button>
+				<button type="button" class="btn btn-primary">Back to store hours</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal modal-style modal-warning fade" id="warning" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel"><i class="fa fa-exclamation-circle" aria-hidden="true"></i></h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+				</div>
+				<div class="modal-body">
+		      		<h1>Warning!</h1>
+		      		<p>Seu código não está clean.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Back to my work</button>
+				<button type="button" class="btn btn-primary">Back to store hours</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal modal-style modal-danger fade" id="danger" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel"><i class="fa fa-times-circle" aria-hidden="true"></i></i></h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+				</div>
+				<div class="modal-body">
+		      		<h1>Danger!</h1>
+		      		<p>Errou tudo.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Back to my work</button>
+				<button type="button" class="btn btn-primary">Back to store hours</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal modal-style modal-primary fade" id="primary" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel"><i class="fa fa-question-circle-o" aria-hidden="true"></i></h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+				</div>
+				<div class="modal-body">
+		      		<h1>Primary</h1>
+		      		<p>Primary Button</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Back to my work</button>
+				<button type="button" class="btn btn-primary">Back to store hours</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal modal-style modal-info fade" id="info" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel"><i class="fa fa-info-circle" aria-hidden="true"></i></h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+				</div>
+				<div class="modal-body">
+		      		<h1>Informação!</h1>
+		      		<p>Nada a declarar</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Back to my work</button>
+				<button type="button" class="btn btn-primary">Back to store hours</button>
+				</div>
+			</div>
+		</div>
+	</div>			
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/tether.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
